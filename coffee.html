@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function coffee(){
+            console.log("put 1 spoon of coffee");
+            console.log("put 1 spoon of sugar");
+            console.log("boil water");
+            console.log("put water into cup");
+            console.log("put 50 cc of milk");
+        }
+        console.log("put 1 spoon of coffee");
+        console.log("put 1 spoon of sugar");
+        console.log("boil water");
+        console.log("put water into cup");
+        console.log("put 50 cc of milk");
+        function pizza(){
+            console.log("make douge");
+            console.log("put tomato sauce");
+            console.log("put cheese");
+            console.log("add olives");
+            console.log("add onion");
+            console.log("put on the oven for 40 min");
+        }
+        function coffeenew(){
+            pelet.innerHTML+="put 1 spoon of coffee <br>";
+            pelet.innerHTML+="put 1 spoon of sugar<br>";
+            pelet.innerHTML+="boil water<br>";
+            pelet.innerHTML+="put water into cup<br>";
+            pelet.innerHTML+="put 50 cc of milk<br>"
+        }
+        function pizzanew(){
+           make.innerHTML+="make douge<br>";
+           make.innerHTML+="put tomato sauce<br>";
+           make.innerHTML+="put cheese<br>";
+           make.innerHTML+="add olives<br>";
+           make.innerHTML+="add onion<br>";
+           make.innerHTML+="put on the oven for 40 min<br>";
+
+          }
+
+
+    </script>
+    <style>
+       
+           .class1{
+               color: white;
+               background-color: brown;
+               border-color: brown;
+               border-radius: 5px;
+              
+               
+           } 
+           .class2{
+               color: white;
+               background-color: coral;
+               border-color: coral;
+               border-radius: 5px;
+           }
+               
+           
+        
+
+    </style>
+</head>
+<body>
+<button onclick="coffeenew()" class="class1">prepare coffee</button>
+<p id="pelet" ></p>
+<img src="" alt=""><img src="img/קפה.jpg" height="55" width="55"/>
+<br>
+
+<button onclick="pizzanew()" class="class2">prepare pizza</button>
+<p id="make"></p>
+<img src="" alt=""><img src="img/פיצה.jpg" height="58" width="87"/>
+
+</body>
+</html>
